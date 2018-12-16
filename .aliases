@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Shortcuts
+alias github="cd ~/code/github/abnerfcastro"

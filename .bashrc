@@ -1,5 +1,11 @@
 export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 
+# Load shell dotfiles
+for file in ~/.{aliases,extra}; do
+	[ -r "$file" ] && [ -f "$file" ] && source "$file";
+done;
+unset file;
+
 # Terminal Customization
 orange=$(tput setaf 166);
 blue=$(tput setaf 21);
