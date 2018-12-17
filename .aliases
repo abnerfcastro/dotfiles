@@ -2,6 +2,11 @@
 
 # Directory Shortcuts
 alias github="cd ~/code/github/abnerfcastro"
+alias lab="cd ~/code/lab"
+
+# Application Shortcuts
+alias g="git"
+alias c="code"
 
 # Other shortcuts
 alias ca="echo 'Activating base conda environment...' && conda activate"
