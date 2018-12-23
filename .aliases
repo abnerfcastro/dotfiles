@@ -2,6 +2,8 @@
 
 # Directory Shortcuts
 alias github="cd ~/code/github/abnerfcastro"
+alias n="cd ~/code/github/abnerfcastro/notes"       # go to notes directory
+alias on="code ~/code/github/abnerfcastro/notes"    # open Visual Code on notes directory
 alias lab="cd ~/code/lab"
 
 # Application Shortcuts
